@@ -8,28 +8,30 @@
 
 /* Main Container for the page*/
 
-#container{
-	background-color: black;
+#header{
+	background-color: #E5E5E5;
 	/*display: inline-block;*/
-	height: 711px;
+	height: 130px;
 	/*vertical-align: top;*/
 	width: 1022px;
 }
 
-	#header{
-		background-color: #E5E5E5;
-		/*display: inline-block;*/
-		height: 130px;
-		/*vertical-align: top;*/
-		width: 1022px;
-	}
+#container{
+	background-color: black;
+	/*display: inline-block;*/
+	height: 581px;
+	padding-left: 15px;
+	/*vertical-align: top;*/
+	width: 1007px;
+}
+
 
 	#left-image {
 		background-color:#80FFFF;
 		border: 6px solid white;
 		display: inline-block;
 		height:253px;
-		margin-left:30px;
+		margin-left:15px;
 		margin-top:15px;
 		width:378px;
 		vertical-align: top;
@@ -43,7 +45,16 @@
 		margin-top:15px;
 		width: 555px;
 		vertical-align: top;
+	}
 
+	.services {
+		background-color: yellow;
+		display: inline-block;
+		height: 250px;
+		margin-left:15px;
+		margin-top:10px;
+		width: 225px;
+		vertical-align: top;
 	}
 
 
