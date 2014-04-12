@@ -9,14 +9,41 @@
 /* Main Container for the page*/
 
 #container{
-	height: 711px;
-	width: 1022px;
 	background-color: black;
+	/*display: inline-block;*/
+	height: 711px;
+	/*vertical-align: top;*/
+	width: 1022px;
 }
 
 	#header{
-		height: 130px;
 		background-color: #E5E5E5;
+		/*display: inline-block;*/
+		height: 130px;
+		/*vertical-align: top;*/
+		width: 1022px;
+	}
+
+	#left-image {
+		background-color:#80FFFF;
+		border: 6px solid white;
+		display: inline-block;
+		height:253px;
+		margin-left:30px;
+		margin-top:15px;
+		width:378px;
+		vertical-align: top;
+	}
+
+	#right-text {
+		background-color: yellow;
+		display: inline-block;
+		height: 265px;
+		margin-left:10px;
+		margin-top:15px;
+		width: 555px;
+		vertical-align: top;
+
 	}
 
 
